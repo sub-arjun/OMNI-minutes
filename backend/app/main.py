@@ -8,7 +8,7 @@ import logging
 from datetime import datetime
 import os
 from dotenv import load_dotenv
-from db import DatabaseManager
+from app.db import DatabaseManager
 import asyncio
 from functools import partial
 import json
