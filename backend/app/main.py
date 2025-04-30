@@ -13,7 +13,7 @@ import asyncio
 from functools import partial
 import json
 from threading import Lock
-from app.process_transcrip import (
+from app.Process_transcrip import (
     TranscriptProcessor, MeetingSummarizer, SummaryResponse,
     SYSTEM_PROMPT, Agent, RunContext, Section, Block
 )
